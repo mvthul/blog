@@ -63,7 +63,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 type="bracket"
                 brackets={['left', 'right']}
                 show={true}
-                color="#1DA1F2"
+                color="#00B4D8"
                 animationDelay={300}
                 animationDuration={3000}
               >
@@ -112,7 +112,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDelay="1000"
                 animationDuration="3000"
                 type="highlight"
-                color="#0ea4e9"
+                color="#00B4D8"
                 strokeWidth="3"
                 show={true}
               >
