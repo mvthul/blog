@@ -44,7 +44,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             <h3 className="pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight">{name}</h3>
             <div className="text-gray-500 dark:text-gray-400">{occupation}</div>
             <div className="text-gray-500 dark:text-gray-400">{company}</div>
-            <div className="flex flex-col pt-3">
+            {/* <div className="flex flex-col pt-3">
               <a
                 className="rounded-full border px-8 py-2 text-center text-sm font-light text-gray-700 transition-colors hover:border-[#1DA1F2] hover:bg-[#1DA1F2] hover:text-white hover:shadow dark:text-white"
                 href="https://twitter.com/messages/compose?recipient_id=4302974298&text=Hey Parth"
@@ -55,7 +55,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                 <AiOutlineTwitter className="mr-2 mb-0.5 inline h-5 w-5" />
                 Say Hi!
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
             <p>
@@ -63,21 +63,22 @@ export default function AuthorLayout({ children, frontMatter }) {
                 type="bracket"
                 brackets={['left', 'right']}
                 show={true}
-                color="#FF0000"
+                color="#1DA1F2"
                 animationDelay={300}
                 animationDuration={3000}
               >
-                {text1} Currently, I am focused on building data pipelines and automating them at{' '}
+                {text1} Currently, I am focused on building Cyber Secure environments and running
+                some side projects.{' '}
                 <Link
-                  href={'https://www.accenture.com/in-en'}
+                  href={'https://www.capturetech.com/'}
                   className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
                 >
-                  Accenture
+                  CaptureTech
                 </Link>
               </RoughNotation>
             </p>
             <br />
-            <p>
+            {/* <p>
               This is what I am doing right{' '}
               <Link
                 href={'/now'}
@@ -85,20 +86,17 @@ export default function AuthorLayout({ children, frontMatter }) {
               >
                 now
               </Link>
-            </p>
+            </p> */}
             <br />
             <p className="sm:block md:hidden lg:hidden">
               I am always looking to learn new things. I am currently working on a few projects
               related to
-              <span className="font-semibold">
-                {' '}
-                Natural Language Processing and Machine Learning.{' '}
-              </span>
+              <span className="font-semibold"> Computer Vision and Machine Learning. </span>
               At the same time I am{' '}
               <RoughNotation
                 type="underline"
                 show={true}
-                color="#FBCFE8"
+                color="#00B4D8"
                 animationDelay={1500}
                 animationDuration={3000}
                 multiline={true}
@@ -119,29 +117,30 @@ export default function AuthorLayout({ children, frontMatter }) {
                 show={true}
               >
                 <span className="text-black dark:text-white">
-                  Natural Language Processing and Machine Learning.{' '}
+                  {' '}
+                  Computer Vision and Machine Learning.{' '}
                 </span>
               </RoughNotation>
               At the same time I am{' '}
               <RoughNotation
                 type="underline"
                 show={true}
-                color="#FBCFE8"
+                color="#00B4D8"
                 animationDelay={1500}
                 animationDuration={3000}
                 multiline={true}
               >
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science
+                actively creating HackTheBox writeups for learning purposes to pursue my passion of
+                Hacking and Coding.
               </RoughNotation>
             </p>
             <br />
             <p>
-              I am a strong advocate for open source and I am always interested in working on new
+              I am standing strong for open source and I am always interested in working on new
               projects with new people. Feel free to reach out if you have anything to talk about,
               you can reach me through{' '}
               <Link
-                href={'mailto:desaiparth2000@gmail.com'}
+                href={'mailto:michael@vthul-it.nl'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
                 Mail
@@ -161,7 +160,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               </Link>{' '}
               or{' '}
               <Link
-                href={'https://api.whatsapp.com/send?phone=916358190818&text=hi'}
+                href={'https://api.whatsapp.com/send?phone=+31639098826&text=hi'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
                 Whatsapp
@@ -181,7 +180,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               </Link>
             </p>
             <br />
-            <p>
+            {/* <p>
               <Link
                 href={'/uses'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
@@ -189,12 +188,12 @@ export default function AuthorLayout({ children, frontMatter }) {
                 Here
               </Link>{' '}
               you can see what I use on daily basis
-            </p>
+            </p> */}
             <br />
             <h1>About this site</h1>
             <p>
-              Welcome to my home on the internet. This site functions as a blog/portfolio, a place
-              to share code and thoughts. Opinions are my own.
+              Welcome to my personal blog on the internet. This site functions as a blog/portfolio,
+              a place to share code and thoughts. Opinions are my own.
             </p>
             <p>
               I learnt how to build this site from the most awesome people in the community:
@@ -204,7 +203,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                     href={'https://github.com/timlrx/tailwind-nextjs-starter-blog'}
                     className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
                   >
-                    Timothy's Next.js and Tailwind CSS template
+                    Next.js and Tailwind CSS template
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -226,7 +225,7 @@ export default function AuthorLayout({ children, frontMatter }) {
                     href={'https://www.einargudni.com/'}
                     className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
                   >
-                    Einar Guðjónsson
+                    Einar
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 24 24"
@@ -247,7 +246,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             </p>
           </div>
         </div>
-        <div className="mt-10 md:pl-16">
+        {/* <div className="mt-10 md:pl-16">
           <div className="space-y-2 pt-6 pb-8 md:space-y-5">
             <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               Experience
@@ -268,7 +267,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               />
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   )

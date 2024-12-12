@@ -17,19 +17,19 @@ export default function Timeline() {
             <FaBlackTie className="animate-none" />
           </span>
           <h3 className="flex items-center text-base  font-semibold text-gray-900 dark:text-white">
-            Applying for Jobs
+            Employed at Capturetech
             <span className="mr-2 ml-3 rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium text-blue-800 dark:bg-blue-200 dark:text-blue-800">
               Present
             </span>
           </h3>
           <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            June 13th, 2022
+            January 1th, 2022
           </time>
           <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
-            Feel confident that I can work as a junior Data Engineer. Wish me Luck
+            Working as a Cyber Security Consultant/Microsoft Cloud Engineer.
           </p>
         </li>
-        <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white px-4 py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
+        {/* <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white px-4 py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
           <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-200 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900">
             <FaGraduationCap />
           </span>
@@ -94,7 +94,7 @@ export default function Timeline() {
           <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
             Bachelor of Technology in Computer Science
           </p>
-        </li>
+        </li> */}
         <Disclosure>
           {({ open }) => (
             <>
@@ -116,7 +116,7 @@ export default function Timeline() {
               >
                 <Disclosure.Panel>
                   {' '}
-                  <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
+                  {/* <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
                     <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-purple-200 ring-8 ring-white dark:bg-purple-900 dark:ring-gray-900">
                       <RiDoorClosedLine />
                     </span>
@@ -143,14 +143,14 @@ export default function Timeline() {
                     <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
                       Wrote my first program in C
                     </p>
-                  </li>
+                  </li> */}
                   <li className="mb-4 ml-8 rounded-md border border-gray-100 bg-white  px-4  py-4 shadow-sm shadow-gray-300 dark:border-zinc-900 dark:bg-zinc-900 dark:shadow-none">
                     <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-blue-200 ring-8 ring-white dark:bg-blue-900 dark:ring-gray-900">
                       <FaBaby />
                     </span>
                     <h3 className="text-base font-semibold text-gray-900 dark:text-white">Born</h3>
                     <time className="text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                      April 16th, 2000
+                      March 5th, 1994
                     </time>
                     <p className="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">
                       Connected to the internet

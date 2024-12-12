@@ -13,6 +13,7 @@ const Contact = () => {
         <div className="pt-10 pb-8">
           <ul className="font-semi-bold flex flex-col space-y-4">
             <ContactLink href="mailto:michael@vthul-it.nl" title="vthul-it.nl" icon="michael" />
+            <ContactLink href="mailto:m.hul@capturetech.com" title="capturetech.com" icon="m.hul" />
             <ContactLink href="https://git.vthul-it.nl/mvthul" title="github" icon="mvthul" />
             {/* <ContactLink
               href="https://twitter.com/_ParthDesai_"
@@ -20,9 +21,9 @@ const Contact = () => {
               icon="_ParthDesai_"
             /> */}
             <ContactLink
-              href="https://www.linkedin.com/in/parth-desai-2bb1b0160/"
+              href="https://www.linkedin.com/in/mvthul/"
               title="linkedin"
-              icon="parthdesai"
+              icon="mvthul"
             />
           </ul>
         </div>
