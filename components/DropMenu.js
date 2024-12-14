@@ -8,22 +8,22 @@ import {
   CodeIcon,
   HomeIcon,
   Pencil1Icon,
-  DiscIcon,
+  // DiscIcon,
   HamburgerMenuIcon,
-  Cross1Icon,
-  FrameIcon,
-  LaptopIcon,
-  BarChartIcon,
-  DrawingPinIcon,
+  // Cross1Icon,
+  // FrameIcon,
+  // LaptopIcon,
+  // BarChartIcon,
+  // DrawingPinIcon,
   Link2Icon,
-  QuoteIcon,
-  CalendarIcon,
+  // QuoteIcon,
+  // CalendarIcon,
   PersonIcon,
   ArchiveIcon,
-  TwitterLogoIcon,
-  RocketIcon,
-  ChatBubbleIcon,
-  EnterIcon,
+  // TwitterLogoIcon,
+  // RocketIcon,
+  // ChatBubbleIcon,
+  // EnterIcon,
 } from '@radix-ui/react-icons'
 import useSound from 'use-sound'
 
@@ -232,7 +232,7 @@ export default function DropMenu() {
                 </Link>
               )}
             </Menu.Item>
-            <Menu.Item>
+            {/* <Menu.Item>
               {({ active }) => (
                 <Link href="/tags">
                   <a
@@ -249,7 +249,7 @@ export default function DropMenu() {
                   </a>
                 </Link>
               )}
-            </Menu.Item>
+            </Menu.Item> */}
             {/* <Menu.Item>
               {({ active }) => (
                 <Link href="/guestbook">

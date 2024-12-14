@@ -101,8 +101,8 @@ export default function AuthorLayout({ children, frontMatter }) {
                 animationDuration={3000}
                 multiline={true}
               >
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science.
+                actively creating HackTheBox writeups for learning purposes to pursue my passion of
+                Hacking and Coding.
               </RoughNotation>
             </p>
             <p className="hidden md:block">

@@ -3,7 +3,7 @@ const siteMetadata = {
   author: "Michael van 't Hul",
   headerTitle: 'Personal Blog',
   description: 'My personal blog where I share my ideas, writeups and experiences',
-  snippets: 'Reuseable code snippets collected by Parth',
+  snippets: 'Reuseable code snippets collected by me',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://blog.vthul-it.nl',
@@ -46,7 +46,7 @@ const siteMetadata = {
     },
   },
   socialAccount: {
-    twitter: '_ParthDesai_',
+    twitter: 'LP1994mjg',
   },
 }
 

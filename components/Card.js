@@ -19,7 +19,7 @@ const Card = ({ title, description, imgSrc, href, github, tech1, tech2, tech3 })
           </div>
         </div>
         <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">{title}</h2>
-
+        {imgSrc && <img src={imgSrc} alt={title} className="mb-4 h-64 w-full object-cover" />}
         <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p>
         <div className="flex flex-row justify-between">
           <div className="text-sm text-gray-400">
