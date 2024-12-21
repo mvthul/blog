@@ -9,9 +9,10 @@
   },
   "scripts": {
     "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
-    "dev": "next dev",
+    "dev": "dotenv -e .env.local next dev",
     "db:init": "dotenv -e .env.local npx prisma migrate dev --name init",
     "serve": "next start",
+    "build": "next build",
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
     "prepare": "husky install"
@@ -26,7 +27,6 @@
     "@headlessui/react": "^1.5.0",
     "@lyket/react": "^2.1.0",
     "@mailchimp/mailchimp_marketing": "^3.0.58",
-    "@prisma/client": "^3.15.2",
     "@radix-ui/react-icons": "^1.1.1",
     "@tailwindcss/forms": "^0.4.0",
     "@tailwindcss/typography": "^0.5.0",
@@ -77,6 +77,7 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "12.1.4",
+    "@prisma/client": "^6.1.0",
     "@svgr/webpack": "^6.1.2",
     "cross-env": "^7.0.3",
     "dedent": "^0.7.0",
@@ -93,7 +94,7 @@
     "next-remote-watch": "^1.0.0",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.4",
-    "prisma": "^6.0.1",
+    "prisma": "^6.1.0",
     "socket.io": "^4.4.0",
     "socket.io-client": "^4.4.0"
   },

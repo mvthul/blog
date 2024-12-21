@@ -1,0 +1,11 @@
+node_modules/
+*.txt
+*.log
+.git/
+.gitignore
+Dockerfile
+docker-compose.yml
+.vscode
+.github
+kubernetes-deployment.yaml
+UpgradeLiveEnvironment.ps1
